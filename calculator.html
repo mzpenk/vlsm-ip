@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subnetting.css">
+    <title>Calculator IP</title>
+</head>
+<body>
+    <body>
+        <!-- Judul Atas -->
+        <h1>IP Address calculator (<span class="sub">Subnettting</span>)</h1>
+        
+        
+           Enter IP Address : 
+            <input type='text' class='addr' id='q1'> .
+            <input type='text' class='addr' id='q2'> .
+            <input type='text' class='addr' id='q3'> .
+            <input type='text' class='addr' id='q4'> /
+            <input type='text' class='addr' id='cidr'>
+            <button onclick='calculate();'>Hitung</button>
+        
+         <hr>
+        <!-- Konten -->
+<div class='result'>
+<span class=label>IP Address :</span>
+<span class=value id=resIP></span>
+</div>
+        
+<div class='result'>
+<span class=label>IP Binary :</span>
+<span class=value id=resBinIP></span>
+</div>
+        
+<div class='result'>
+<span class=label>Subnet mask :</span>
+<span class=value id=resMask></span>
+</div>
+
+<div class='result'>
+<span class=label>Mask Binary :</span>
+<span class=value id=resBinMask></span>
+</div>
+        
+<div class='result'>
+<span class=label>Standard Class :</span>
+<span class=value id=resClass></span>
+</div>
+        
+<div class='result'>
+<span class=label>Net Address :</span>
+<span class=value id=resNet></span>
+</div>
+        
+<div class='result'>
+<span class=label>Broadcast Address :</span>
+<span class=value id=resBC></span>
+</div>
+
+<div class='result'>
+<span class=label>Range :</span>
+<span class=value id=resRange></span>
+</div>
+
+
+<div class='result'>
+<span class=label>Net Address Binary :</span>
+<span class=value id=resBinNet></span>
+</div>
+<div class='result'>
+<span class=label>BC Address Binary :</span>
+<span class=value id=resBinBC></span>
+</div>
+<br>
+                <!-- Footer by -->
+        <footer>
+        <div class="footer-content">
+            <span class="created-by">Created by: <b><a href="https://github.com/mzpenk">Mzpenk</a></b></span>
+        </div>
+    </footer>
+                <!-- Footer by -->
+    </body>
+    
+    <script src="subnetting.js" type="text/javascript"></script>
+</body>
+</html>
